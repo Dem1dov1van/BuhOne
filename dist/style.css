@@ -58,7 +58,7 @@ a {
 }
 
 .header .logo__text {
-  padding-left: 64px;
+  /* padding-left: 64px; */
   color: #005fa3;
   font-family: 'Merriweather';
   font-style: normal;
@@ -953,6 +953,9 @@ a {
   .header__toggle {
     display: block;
   }
+  .header .logo__text {
+    padding-left: 40px;
+  }
   .main-list__img {
     margin-right: 12px;
   }
@@ -1362,11 +1365,13 @@ a {
     margin: 4px auto;
     width: 200px;
     margin: auto auto 12px;
+    padding-left: calc(100% / 7);
   }
   .header .logo__text {
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
+    padding-left: 0;
   }
   .header__main-list {
     margin: 22px 0;
@@ -1835,6 +1840,11 @@ a {
     bottom: 112px;
     border: 0;
   }
+  element.style {
+  }
+  .header .logo__text {
+    padding-left: calc(100%);
+  }
   .tagline {
     font-family: 'Lato', sans-serif;
     font-size: 20px;
@@ -1877,7 +1887,7 @@ a {
     padding-top: 48px;
   }
   .section-specializations .list-gallery__item {
-    background-image: url(/img/Rectangle.png);
+    background-image: url(./img/Rectangle.png);
     background-size: cover;
     width: 250px;
     height: 260px;
@@ -2189,6 +2199,9 @@ a {
     bottom: 112px;
     left: 2.5%;
   }
+  .header .logo__text {
+    padding-left: calc(100%);
+  }
   .slick-arrow.slick-prev {
     right: calc(2.5% + 60px);
     bottom: 50px;
@@ -2216,7 +2229,7 @@ a {
     padding-top: 48px;
   }
   .section-specializations .list-gallery__item {
-    background-image: url(/img/Rectangle.png);
+    background-image: url(./img/Rectangle.png);
     background-size: cover;
     width: 250px;
     height: 260px;
